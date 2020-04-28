@@ -8,6 +8,6 @@ router.post('/api/file/upload', upload.single("file"), fileWorker.uploadFile);
  
 router.get('/api/file/info', fileWorker.listAllFiles);
  
-router.get('/api/file/:id', fileWorker.downloadFile);
+// router.get('/api/file/:id', fileWorker.downloadFile);
  
 module.exports = router;
