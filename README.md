@@ -9,6 +9,6 @@ To setup the program, first give the command:
  
 It will install all the dependencies.
 
-Then do `npm run dev` to get the program running.
+Then do `npm run dev` to get the program running on the localhost.
  
  
